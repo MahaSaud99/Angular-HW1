@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homework1</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+  <style>
+    .navbar-custom {
+      background-color: #F2F6EF; 
+      font-family: 'Inter', sans-serif; 
+      color: black; 
+    }
+
+    .navbar-brand {
+      font-weight: bold; 
+    }
+
+    .text-font {
+      font-family: 'Belleza'; 
+    }
+
+    .btn-custom {
+      background-color: white;
+      border: 2px solid black;
+      padding: 0.375rem 0.75rem;
+      border-radius: 0.25rem;
+    }
+
+    .table-custom th, .table-custom td {
+      vertical-align: middle;
+    }
+  </style>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+            <div class="container">
+              <a class="navbar-brand" href="#">Planty'x</a>
+          
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+          
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item">
+                    <a class="nav-link">Plants</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link">For Offices</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link">Plants Care</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link">About</a>
+                  </li>
+                </ul>
+                
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                    <a class="nav-link"><i class="fas fa-shopping-cart"></i></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link"><i class="fas fa-user"></i></a>
+                  </li>
+                </ul>
+          
+          
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <main>
+        <div class="container">
+
+            <div class="row align-items-center mt-4">
+                <div class="col">
+                    <h1 class="display-4 font-weight-bold text-font">Happiness blooms from within</h1>
+                    <a class="btn btn-dark text-font">Shop Now</a>
+                    <p class="mt-3 text-font" style="font-size: 1.2em;">Beautiful living greenery for homes and offices</p>
+                </div>
+                <div class="col-auto">
+                    <img src="./images/HomePic.png" class="img-fluid" alt="Placeholder Image">
+                </div>
+            </div>
+
+            <div class="row justify-content-center mt-3">
+                <div class="col text-center">
+                    <h2 class="display-3 text-font">The Collection</h2>
+                </div>
+            </div>
+
+            <div class="row mt-4 mb-4">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="./images/image 8.png" class="card-img-top" alt="Peperomia Ginny">
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-font">Peperomia Ginny</h5>
+                            <p class="card-text text-font">$25</p>
+                            <a class="btn btn-custom mt-2 mb-2 text-font">Buy</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="./images/image 9.png" class="card-img-top" alt="Bird’s Nest Fern">
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-font">Bird’s Nest Fern</h5>
+                            <p class="card-text text-font">$45</p>
+                            <a class="btn btn-custom mt-2 mb-2 text-font">Buy</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="./images/image 10.png" class="card-img-top" alt="Large Majesty Palm">
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-font">Large Majesty Palm</h5>
+                            <p class="card-text text-font">$52</p>
+                            <a class="btn btn-custom mt-2 mb-2 text-font">Buy</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="./images/image 11.png" class="card-img-top" alt="Pet Friendly Plant">
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-font">Pet Friendly Plant</h5>
+                            <p class="card-text text-font">$30</p>
+                            <a class="btn btn-custom mt-2 mb-2 text-font">Buy</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mt-4 mb-4">
+            <div class="col">
+                <table class="table table-bordered table-custom">
+                    <thead>
+                        <tr>
+                            <th class="text-font text-center">Image</th>
+                            <th class="text-font text-center">Description</th>
+                            <th class="text-font text-center">Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="text-center"><img src="./images/1.jpg" class="rounded" alt="Plant 1" width="100"></td>
+                            <td class="text-font">This is a lovely plant that brings life to any room.</td>
+                            <td class="text-font text-center">$20</td>
+                        </tr>
+                        <tr>
+                            <td class="text-center"><img src="./images/2.jpg" class="rounded" alt="Plant 2" width="100"></td>
+                            <td class="text-font">A vibrant plant that adds a touch of nature.</td>
+                            <td class="text-font text-center">$35</td>
+                        </tr>
+                        <tr>
+                            <td class="text-center"><img src="images/3.jpg" class="rounded" alt="Plant 3" width="100"></td>
+                            <td class="text-font">Perfect for indoor decoration, easy to care for.</td>
+                            <td class="text-font text-center">$40</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+           </div>
+
+           <div class="row mt-4 mb-4">
+            
+           </div>
+
+        </div>
+    </main>       
+
+    <footer class="footer fixed-bottom bg-light">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <p>&copy; 2024 Planty'x. All rights reserved.</p>
+            </div>
+            <div class="col-md-6 text-md-right">
+              <p>Contact Us | Privacy Policy</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
